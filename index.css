@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  background-image: url(./Play_Banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.main {
+  font-size: 12px;
+  background-color: rgb(240, 240, 240);
+  border: 3px solid white;
+  width: 26%;
+  padding: 20px;
+  margin: 100px 30px;
+  border-radius: 5px;
+}
+.main__form {
+  margin: 0;
+  padding: 0;
+}
+.main__button {
+  margin: 10px 0;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+  background-color: aqua;
+  border: none;
+  border-radius: 20%;
+  font-family: "Courier New", Courier, monospace;
+}
+.main__input {
+  margin: 10px 0;
+  width: 200px;
+  height: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
